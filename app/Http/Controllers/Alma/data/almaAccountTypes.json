@@ -1,0 +1,103 @@
+[
+    {   "title" : "UQ Alumni",
+        "value" : "alumni",
+        "description" : "For UQ graduates who have a UQ username and password.",
+        "conditions": "Graduate membership costs $75 per year or $50 for 6 months. Please allow 5 working days for your application to be processed. Please note that <a target='_blank' href='https://app.library.uq.edu.au/#/membership/form/alumninew'>new graduates</a> are eligible for one year free membership upon submission of the application form for new graduates.",
+        "agreement": ["And I have read the <a target='_blank' href='https://web.library.uq.edu.au/library-services/services-uq-alumni'>list of services available to UQ Alumni</a> and I am aware of my entitlements"],
+        "paymentOptions": [
+            {"code": "A06", "description": "6 months ($50)"},
+            {"code": "A12", "description": "12 months ($75)"}
+        ]
+    },
+    {   "title" : "at LCCH, Mater or RBWH",
+        "value" : "hospital",
+        "description" : "For employees of LCCH, Mater or RBWH. Please allow 2 working days for your application to be processed.",
+        "agreement": [],
+        "upload": "Please upload an image of your hospital ID that clearly shows your name and payroll number. If you are unable to upload the document it will need to be presented in person at your hospital library.",
+        "conditions": "For employees of LCCH, Mater or RBWH. Please allow 2 working days for your application to be processed."
+
+    },
+    {   "title" : "Retired UQ Staff",
+        "value" : "retired",
+        "description" : "For retired UQ staff with at least 10 years of service at UQ.",
+        "conditions": "",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."]
+    },
+    {   "title" : "Reciprocal Borrower",
+        "value" : "reciprocal",
+        "description" : "Free membership for eligible <a target='_blank' href='https://web.library.uq.edu.au/library-services/community/borrowing-students-and-staff-other-universities-reciprocal'>staff and students</a> from a University that is a member of the <a href='http://www.caul.edu.au/caul-programs/ulanz' target='_blank'>University Libraries Australia and New Zealand</a> agreement.",
+        "conditions": "Free membership for eligible <a target='_blank' href='https://web.library.uq.edu.au/library-services/community/borrowing-students-and-staff-other-universities-reciprocal'>staff and students</a> from a University that is a member of the <a href='http://www.caul.edu.au/caul-programs/ulanz' target='_blank'>University Libraries Australia and New Zealand</a> agreement.",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."],
+        "upload": "Please upload proof of eligibility e.g. confirmation of enrolment / employment. Students from overseas will also need to supply a letter of introduction and indemnity from their home institution."
+    },
+    {   "title" : "Proxy Borrower",
+        "value" : "proxy",
+        "description" : "For senior UQ / teaching hospital staff to nominate another staff member to borrow material on their behalf. This form is to be completed by the authorising borrower.",
+        "conditions": "For senior UQ / teaching hospital staff to nominate another staff member to borrow material on their behalf. This form is to be completed by the authorising borrower. A Library card with your name and the name of the person authorised to borrow for you will be sent to you. The signature panel on the card must be signed by the nominated borrower.",
+        "agreement": ["And I understand that I am responsible for the return of Library materials borrowed on my behalf under this authorisation and that I may be charged for the replacement of material not returned."]
+    },
+    {   "title" : "Alumni Friends",
+        "value" : "alumnifriends",
+        "description" : "For members of the Alumni Friends of The University of Queensland Inc.",
+        "conditions": "For members of the Alumni Friends of The University of Queensland Inc. Membership costs $20 per year.",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."],
+        "upload": "Please upload proof of Alumni Friends membership.",
+        "paymentOptions": [
+            {"code": "AF1", "description": "12 months ($20)"}
+        ]
+    },
+    {   "title" : "Community",
+        "value" : "community",
+        "description" : "For members of the general public. Membership costs $25 per year.",
+        "conditions": "For members of the general public. Membership costs $25 per year.",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."],
+        "paymentOptions": [
+            {"code": "COM", "description": "12 months ($25)"}
+        ]
+    },
+    {   "title" : "Friend of the Library",
+        "value" : "friend",
+        "description" : "<a target='_blank' href='https://web.library.uq.edu.au/about-us/friends-library'>The Friends of the Library</a> is a group of students, alumni, staff and community members who enjoy reading and learning and who share enthusiasm for the UQ Library. Annual membership costs: Level One $25 (students $15); Level Two Premium $100",
+        "conditions": "<a target='_blank' href='https://web.library.uq.edu.au/about-us/friends-library'>The Friends of the Library</a> is a group of students, alumni, staff and community members who enjoy reading and learning and who share enthusiasm for the UQ Library. Annual membership costs: Level One $25 (students $15); Level Two Premium $100",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."],
+        "paymentOptions": [
+            {"code": "FR1",  "description": "Level 1 ($25)"},
+            {"code": "FR1S", "description": "Level 1 UQ Student ($15)"},
+            {"code": "FR2",  "description": "Level 2 Premium ($100)"}
+        ]
+    },
+    {   "title" : "UQ Associate",
+        "value" : "associate",
+        "description" : "For staff employed by UQ controlled entities e.g. JKTech.",
+        "conditions": "For staff employed by UQ controlled entities e.g. JKTech.",
+        "agreement": []
+    },
+    {   "title" : "Cyberschool",
+        "value" : "cyberschool",
+        "description" : "",
+        "conditions": "This application will be processed on confirmation that the School agrees to indemnify the University of Queensland Library for any outstanding resources.",
+        "agreement": ["I have reviewed <a target='_blank' href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules'>borrowing privileges for UQL Cyberschool members</a> and am aware of my entitlements"],
+        "_upload": "Please upload the completed UQL Cyberschool Student Borrowing Authorisations form."
+    },
+    {   "title" : "New Graduates",
+        "value" : "alumninew",
+        "description" : "New graduates are eligible for one year free membership following graduation or completion of your program.",
+        "conditions": "New graduates are eligible for one year free membership following graduation or completion of your program. Please allow 3 working days for your application to be processed.",
+        "agreement": ["And I have read the <a target='_blank' href='https://web.library.uq.edu.au/library-services/services-uq-alumni'>list of services available to UQ Alumni</a> and I am aware of my entitlements"],
+        "_upload": ""
+    },
+    {   "title" : "Staff Awaiting Aurion",
+        "value" : "awaitingaurion",
+        "description" : "A <a target='_blank' href='https://www.library.uq.edu.au/services/aurion_form_letter.html'>Letter of Introduction and Indemnity</a> (to be completed and signed by the Head of School or equivalent) must be uploaded to support the application.",
+        "conditions": "A <a target='_blank' href='https://www.library.uq.edu.au/services/aurion_form_letter.html'>Letter of Introduction and Indemnity</a> (to be completed and signed by the Head of School or equivalent) must be uploaded to support the application.",
+        "agreement": ["And I have read the <a target='_blank' href='https://web.library.uq.edu.au/library-services/professional-staff/borrowing-application-form-staff-awaiting-creation-aurion-record'>privacy statement</a>"],
+        "upload": "Please upload a scan of a completed <a target='_blank' href='https://www.library.uq.edu.au/services/aurion_form_letter.html'>Letter of Introduction and Indemnity</a>."
+    },
+    {   "title" : "Official Visitors",
+        "value" : "visitors",
+        "description" : "Official Visitors, higher degree candidates and deferring postgraduates (not on the UQ HR or Student admin  system)",
+        "conditions": "Official Visitors, higher degree candidates and deferring postgraduates (not on the UQ HR or Student admin  system)",
+        "agreement": ["I have reviewed <a href='https://web.library.uq.edu.au/borrowing-requesting/how-borrow/borrowing-rules' target='_blank'>borrowing privileges for community members</a> and I am aware that membership does not include remote access to electronic resources."],
+        "upload": "<a target='_blank' href='https://www.library.uq.edu.au/services/indemnity.html'>A Letter of introduction and indemnity</a> is to be signed by the appropriate UQ Head of School/Centre and uploaded in support of your application."
+    }
+]

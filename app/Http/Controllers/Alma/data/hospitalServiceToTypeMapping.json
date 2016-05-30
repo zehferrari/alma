@@ -1,0 +1,83 @@
+{
+    "Princess Alexandra Hospital": {
+        "default" : {
+            "homeLib" : "pahi",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "190"
+        },
+        "Student (Diploma of Nursing)" : {
+            "homeLib" : "mati",
+            "atype"   : "COMMU",
+            "ptype"   : "8",
+            "statClass" : "162"
+        },
+        "Nurse or Midwife" : {
+            "homeLib" : "pahi",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "153"
+        }
+    },
+    "Mater Health Services" : {
+        "default" : {
+            "homeLib" : "mati",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "189"
+        },
+        "Student (Diploma of Nursing)" : {
+            "homeLib" : "mati",
+            "atype"   : "HOSP",
+            "ptype"   : "8",
+            "statClass" : "162"
+        },
+        "Nurse or Midwife" : {
+            "homeLib" : "mati",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "161"
+        }
+    },
+    "Royal Brisbane and Womens Hospital" : {
+        "default" : {
+            "homeLib" : "hmlia",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "187"
+        },
+        "Student (Diploma of Nursing)" : {
+            "homeLib" : "mati",
+            "atype"   : "HOSP",
+            "ptype"   : "8",
+            "statClass" : "162"
+        },
+        "Nurse or Midwife" : {
+            "homeLib" : "hmlia",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "69"
+        }
+    },
+    "Lady Cilento Children's Hospital" : {
+        "default" : {
+            "homeLib" : "hmlia",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "187"
+        },
+        "Student (Diploma of Nursing)" : {
+            "homeLib" : "mati",
+            "atype"   : "HOSP",
+            "ptype"   : "8",
+            "statClass" : "162"
+        },
+        "Nurse or Midwife" : {
+            "homeLib" : "hmlia",
+            "atype"   : "HOSP",
+            "ptype"   : "9",
+            "statClass" : "69"
+        }
+    }
+
+}

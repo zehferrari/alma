@@ -1,0 +1,162 @@
+/*******************************************************************************************************
+ ** Alma Users table structure and field map to the membership app
+ ** 'Alma fieldname' => 'Membership fieldname' / 'Default Value'
+
+  $user = [
+    // Alma User fields API documentation:
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd
+    "primary_id" => "uid",
+    "external_id" => "id",
+
+    "password" => "userPassword",
+    "force_password_change" => "",
+
+    "status" => [
+      "value" => "'ACTIVE | INACTIVE | DELETED'"
+    ],
+    "record_type" => [
+      "value" => "'Public'"
+    ],
+
+    "user_title" => "title",
+    "full_name" => "name",
+    "first_name" => "firstName",
+    "middle_name",
+    "last_name" => "sn",
+    "pin_number",
+
+    "birth_date" => "dateOfBirth",
+    "expiry_date" => "expiresOn",
+    "purge_date" => "",
+
+    "job_category" => [
+      "value" => "'Patron'"
+    ],
+    "user_group" => [
+      "value" => "type"
+    ],
+    "web_site_url" => "url",
+    "preferred_language" => [
+      "value" => "'en'"
+    ],
+
+    // https://developers.exlibrisgroup.com/blog/Users-API-working-with-external-internal-users
+    "account_type" => [
+      "value" => "'EXTERNAL'"
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#user_identifiers
+    "user_identifier" => [
+      [
+        "value" => "barcode",
+        "note" => "",
+        "status" => "",
+        "id_type" => [
+          "value" => "'01'"
+        ]
+      ]
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#user_roles
+    "user_role" => [
+      "status" => "Active",
+      "scope" => "",
+      "role_type" => "'200'",
+      "expiry_date" => "expiresOn"
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#user_statistic
+    "user_statistic" => [
+      "statistic_category" => [
+        "value" => ""
+      ]
+    ],
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#contact_info
+    // Should we also add hospitalAddress, cyberschoolAddress and associateAddress?
+    "contact_info" => [
+      "address" => [
+        [
+          "line1" => "homeAddress_0",
+          "line2" => "homeAddress_1",
+          "city" => "homeAddress_city",
+          "state_province" => "homeAddress_state",
+          "postal_code" => "homeAddress_postcode",
+          "country" => "'AUS'",
+          "address_note" => "",
+          "start_date" => "",
+          "address_type" => [
+            // NA
+            "value" => "'Home'"
+          ]
+        ],
+        [
+          "line1" => "hospitalAddress_0",
+          "line2" => "hospitalAddress_1",
+          "line3" => "hospitalAddress_2",
+          "line4" => "hospitalService",
+          "address_note" => "hospitalClass | hospitalEmpType",
+          "start_date" => "",
+          "address_type" => [
+            // NA
+            "value" => "'Work'"
+          ]
+        ],
+        [
+          "line1" => "cyberschoolAddress_0",
+          "line2" => "cyberschoolAddress_1",
+          "address_type" => [
+            // NA
+            "value" => "'Work'"
+          ]
+        ],
+        [
+          "line1" => "associateAddress_0",
+          "line2" => "associateAddress_1",
+          "line3" => "associateAddress_2",
+          "address_type" => [
+            // NA
+            "value" => "'Work'"
+          ]
+        ]
+      ]
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#emails
+    "email" => [
+      [
+        "description" => "",
+        "preferred" => true,
+        "email_address" => "mail",
+        "email_type" => [
+          "value" => "'Personal | Work | Alternative'"
+        ]
+      ]
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#phone
+    "phone" => [
+      [
+        "preferred" => true,
+        "phone_number" => "phone",
+        "preferred_sms" => "",
+        "phone_type" => [
+          "value" => "'Home | Mobile | Office | OfficeFax'"
+        ]
+      ]
+    ],
+
+    // https://developers.exlibrisgroup.com/alma/apis/xsd/rest_user.xsd?tags=GET#user_note
+    "user_note" => [
+      [
+        "note_type" => [
+          "value" => "",
+          "desc" => ""
+        ],
+        "note_text" => "",
+        "user_viewable" => true
+      ]
+    ]
+  ];
+
+*/
+

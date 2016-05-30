@@ -1,0 +1,87 @@
+/*******************************************************************************************************
+** Current Membership DynamoDB table structure / fields available
+*
+
+  {
+    "type": "hospital",
+    "id": "d83b4230-5ceb-11e5-8ea6-0d727401690c",
+    "uid": "libbshrest",
+    "userPassword": "eyJpdiI6IjZRUERqemttUWlQTzlVNEV1Z1RIQTNQb3hyZUx4TTJEMTFWMERRdXZHME09IiwidmFsdWUiOiJ4T3BCSDV2dDhzVUlGZG1wYXVBRWZVSDBGVTEwUW56Q3pJcGVlaGF4V0lzPSIsIm1hYyI6ImExZjM0ZWEyMTc1NmFiMDFiZDUxNGJkYWVhYzAyNjRkYTQ0MDRmNzBjMjM1MWI5ZmEyOGU2NDIyNWU4YTk0NmYifQ=="
+
+    "status": "confirmed",
+    "submittedOn": "25-11-2014 15:50:22",
+    "barcode": "24067121760897",
+    "confirmedOn": "25-11-2014 15:51:10",
+    "expiresOn": "21-12-2015",
+
+    "url",
+    "mail": "shrestha_binita@hotmail.com",
+    "title": "Dr",
+    "name": "binita shrestha",
+    "firstName": "binita",
+    "sn": "shrestha",
+    "dateOfBirth": "26-02-1980",
+
+    "phone": "0434053380",
+
+    "departamentalAddress": "ADAQ",
+
+    "retiredPos": "Senior Research Assistant",
+    "retiredNum": "0003831",
+    "retiredYears": "29",
+
+    "homeAddress_0": "40/228 gaskell street",
+    "homeAddress_1": "eight mile plains",
+    "homeAddress_city": "brisbane",
+    "homeAddress_postcode": "4113",
+    "homeAddress_state": "QLD",
+
+    "hospitalAddress_0": "rehabilitation",
+    "hospitalAddress_1": "annerly road level4",
+    "hospitalAddress_2": "mater private",
+    "hospitalClass": "Medical Doctor (Registrar)",
+    "hospitalEmpType": "Contract | Continuing",
+    "hospitalService": "Mater Health Services",
+
+    "cyberschoolAddress_0": "Queensland Academy for Health Sciences",
+    "cyberschoolAddress_1": "102 Edmund Rice Dr, Southport QLD 421",
+    "cyberschoolEnrolYear": "11",
+    "cyberschoolParentMail": "hayeonlove@gmail.com",
+    "cyberschoolPhoneNum": "55101100",
+
+    "awaitingaurionAddress_0": "1514 Jefferson Hwy",
+    "awaitingaurionAddress_1": "New Orleans",
+    "awaitingaurionAddress_2": "LA 70121 USA",
+
+    "associateAddress_0": "Uniquest, Level 7 GP South",
+    "associateAddress_1": "Staff house rd",
+    "associateAddress_2": "St Lucia, 4072",
+
+    "alumninewAwards": "Master of Energy Studies",
+    "alumninewGraduated": "2015",
+    "alumninewNum": "s4336984",
+    "alumniPeriod": "A12",
+
+  	"alumniBarcode": "",
+
+    "paymentCode": "A12",
+    "paymentReceipt": "WP01088701",
+    "paymentDate": "02-04-2016 14:00:11",
+    "paymentAmount": "25.00",
+    "paymentResponse": "Success",
+
+    "reciprocalInstitution": "Other",
+    "reciprocalLibNo": "32446958",
+
+    "libraryFriendMembership": "1",
+    "friendshipLevel": "FR1",
+    "fryerInterest": "1",
+
+    "proxyDurationFrom": "15-04-2016",
+    "proxyDurationTo": "31-12-2016",
+    "proxyAuthOrg": "ATCH School of Architecture",
+    "proxyOrg": "Architecture",
+    "proxyAuthName": "Deborah van der Plaat",
+  }
+
+*/
